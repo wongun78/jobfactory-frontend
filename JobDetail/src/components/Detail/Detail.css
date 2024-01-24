@@ -1,0 +1,62 @@
+.d-container {
+    justify-content: space-between;
+}
+
+.d-left {
+    gap: 1rem;
+}
+
+.d-right {
+    width: 25rem;
+    gap: 0.8rem;
+}
+
+.d-menu {
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.primaryText {
+    color: #04132c;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.secondaryText {
+    color: rgb(140 139 139);
+    font-size: 0.9rem;
+}
+
+.d-detail {
+    width: 80%;
+}
+
+.d-left {
+    width: 50%;
+}
+
+.flexColStartTest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.primaryTextRight {
+    color: rgb(140 139 139);
+    font-size: 1.2rem;
+}
+
+.primaryTextLeft {
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+
+.secondaryTextLeft {
+    color: rgb(141, 140, 140);
+    font-size: 1.2rem;
+}
+
+.header-container {
+    justify-content: space-between;
+}
+

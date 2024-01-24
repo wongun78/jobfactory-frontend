@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login-form {
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.login-form h2 {
+    line-height: 50px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #272346;
+    text-align: center;
+}
+
+.login-form .main {
+    position: relative;
+    display: flex;
+}
+
+.content {
+    padding: 3em 3em;
+    background: #fff;
+}
+
+.contents {
+    justify-content: center;
+}
+
+p {
+    font-size: 13px;
+    color: #666;
+    line-height: 25px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.btn:hover,
+button:hover {
+    transform: scale(1.02);
+    transition: 0.8s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contents {
+    padding-left: 5%;
+}
+
+.contents-p {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.login-form input {
+    outline: none;
+    margin-bottom: 25px; 
+    font-size: 16px; 
+    color: #999;
+    text-align: left;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #f7fafc;
+    transition: 0.3s ease;
+}
+
+
+.login-form input:focus {
+    background: transparent;
+    border: 1px solid #6e6594;
+}
+
+.login-form button {
+    color: #fff;
+    width: 100%;
+    background: #4e34b6;
+    border: none;
+    padding: 14px 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+p.account a {
+    color: #998ad5;
+}
+
+p.account a:hover {
+    text-decoration: underline;
+}
+
+p.account {
+    padding-top: 20px;
+}

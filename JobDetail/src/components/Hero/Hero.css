@@ -1,0 +1,106 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hero-left {
+    gap: 2.8rem;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title>h1 {
+    width: 100%;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.7rem;
+}
+
+.hero-titleTwo {
+    color: #26A4FF;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.7rem;
+}
+
+.search-bar {
+    background-color: white;
+    border: 3px solid rgba(120, 120, 120, 0.4);
+    padding: 1.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search-bar>input {
+    font-size: 25px;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+
+
+/* Category.css */
+
+.mode {
+    height: 10rem;
+    width: 100%;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.mode .button {
+    height: 4rem;
+    width: 15%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.mode>:nth-child(1) {
+    width: 100%;
+    gap: 1.6rem;
+}
+
+.mode .detail .primaryText {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.mode .detail .secondaryText {
+    font-size: 1.1rem;
+}
+
+.mode:hover {
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+
+.mode .button:hover {
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+
+.mode .buttonThree:hover {
+    scale: 0.8;
+}
+
+.mode .buttonThree {
+    width: 20%;
+    font-size: 0.9rem;
+    font-weight: 600;
+}

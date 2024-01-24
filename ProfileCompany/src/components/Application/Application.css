@@ -1,0 +1,93 @@
+.m-container {
+    justify-content: space-between;
+}
+
+.m-header {
+    justify-content: space-between;
+}
+
+.m-time {
+    justify-content: space-between;
+}
+
+.m-cate {
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.time1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.time2 {
+    font-size: 1.2rem;
+}
+
+.search-bar {
+    background-color: white;
+    border: 3px solid rgba(120, 120, 120, 0.4);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.search-bar>input {
+    width: 70%;
+    border: none;
+    outline: none;
+}
+
+.mode2 {
+    height: 12rem;
+    width: 19rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.mode2 .detail2 .primaryText2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+}
+
+.mode2 .detail2 .secondaryText2 {
+    font-size: 5rem;
+}
+
+.m-left {
+    gap: 1.2rem;
+}
+
+
+/* table */
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table thead tr {
+    border-bottom: 2px solid #ddd;
+}
+
+.table th {
+    padding: 24px;
+    text-align: left;
+}
+
+.table tbody {
+    background-color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table td {
+    padding: 24px;
+    text-align: left;
+}

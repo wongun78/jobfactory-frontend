@@ -1,0 +1,52 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: var(--black);
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hero-left {
+    gap: 2.8rem;
+}
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-title>h1 {
+    width: 100%;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.7rem;
+}
+
+.hero-titleTwo {
+    color: #26A4FF;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 4.7rem;
+}
+
+.search-bar {
+    background-color: white;
+    border: 3px solid rgba(120, 120, 120, 0.4);
+    padding: 1.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search-bar>input {
+    font-size: 25px;
+    height: 3rem;
+    border: none;
+    outline: none;
+}
+
+

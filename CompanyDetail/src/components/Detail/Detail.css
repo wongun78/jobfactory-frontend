@@ -1,0 +1,16 @@
+.d-container {
+    justify-content: space-between;
+}
+
+.d-left {
+    width: 50%;
+    gap: 1rem;
+}
+
+.d-menu {
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.d-right {
+}
